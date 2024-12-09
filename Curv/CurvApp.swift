@@ -11,7 +11,10 @@ import SwiftUI
 struct CurvApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let repository = RingRepositoryImpl()
+            let ringUseCase = RingUseCase(repository: repository)
+            let viewModel = MainViewModel(ringUseCase: ringUseCase)
+            MainView(viewModel: viewModel)
         }
     }
 }

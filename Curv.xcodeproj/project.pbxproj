@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		10D836791086F4CFA66EDD6C /* Pods_Curv_CurvUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FFB68C40F616F6F835716D3 /* Pods_Curv_CurvUITests.framework */; };
+		50FBFA3907A26BD3163BBC99 /* Pods_CurvTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB6D789A2784FA4D165967F /* Pods_CurvTests.framework */; };
+		BDBD8CD32D05EEA100E0A195 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDBD8CD22D05EEA100E0A195 /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		BDBD8C5C2D05C2CC00E0A195 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,14 +30,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		304673C5B07802C25BE2A765 /* Pods-Curv-CurvUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Curv-CurvUITests.debug.xcconfig"; path = "Target Support Files/Pods-Curv-CurvUITests/Pods-Curv-CurvUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F942214065BEEC03AD082BD /* Pods-Curv-CurvUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Curv-CurvUITests.release.xcconfig"; path = "Target Support Files/Pods-Curv-CurvUITests/Pods-Curv-CurvUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6FFB68C40F616F6F835716D3 /* Pods_Curv_CurvUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Curv_CurvUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95EEC1F958FEE8AB6362F7EF /* Pods-Curv.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Curv.release.xcconfig"; path = "Target Support Files/Pods-Curv/Pods-Curv.release.xcconfig"; sourceTree = "<group>"; };
+		9DB6D789A2784FA4D165967F /* Pods_CurvTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CurvTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7711984A5AD6CA13183453 /* Pods-CurvTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CurvTests.release.xcconfig"; path = "Target Support Files/Pods-CurvTests/Pods-CurvTests.release.xcconfig"; sourceTree = "<group>"; };
 		BDBD8C4B2D05C2CA00E0A195 /* Curv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Curv.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDBD8C5B2D05C2CC00E0A195 /* CurvTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurvTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDBD8C652D05C2CC00E0A195 /* CurvUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurvUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBD8CD22D05EEA100E0A195 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		BF80021C68AF57BAC0172281 /* Pods-CurvTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CurvTests.debug.xcconfig"; path = "Target Support Files/Pods-CurvTests/Pods-CurvTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5D8331E71974185FD258DEF /* Pods-Curv.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Curv.debug.xcconfig"; path = "Target Support Files/Pods-Curv/Pods-Curv.debug.xcconfig"; sourceTree = "<group>"; };
+		DE3EBE6B15E78545C9734F12 /* Pods_Curv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Curv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BDBD8CD52D05EED900E0A195 /* Exceptions for "Curv" folder in "Curv" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = BDBD8C4A2D05C2CA00E0A195 /* Curv */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		BDBD8C4D2D05C2CA00E0A195 /* Curv */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BDBD8CD52D05EED900E0A195 /* Exceptions for "Curv" folder in "Curv" target */,
+			);
 			path = Curv;
 			sourceTree = "<group>";
 		};
@@ -52,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDBD8CD32D05EEA100E0A195 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50FBFA3907A26BD3163BBC99 /* Pods_CurvTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +97,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10D836791086F4CFA66EDD6C /* Pods_Curv_CurvUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14EEF44FA879602FCD63A5F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5D8331E71974185FD258DEF /* Pods-Curv.debug.xcconfig */,
+				95EEC1F958FEE8AB6362F7EF /* Pods-Curv.release.xcconfig */,
+				304673C5B07802C25BE2A765 /* Pods-Curv-CurvUITests.debug.xcconfig */,
+				4F942214065BEEC03AD082BD /* Pods-Curv-CurvUITests.release.xcconfig */,
+				BF80021C68AF57BAC0172281 /* Pods-CurvTests.debug.xcconfig */,
+				AD7711984A5AD6CA13183453 /* Pods-CurvTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		65D50B5F44AAE42C424D7596 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDBD8CD22D05EEA100E0A195 /* CoreBluetooth.framework */,
+				DE3EBE6B15E78545C9734F12 /* Pods_Curv.framework */,
+				6FFB68C40F616F6F835716D3 /* Pods_Curv_CurvUITests.framework */,
+				9DB6D789A2784FA4D165967F /* Pods_CurvTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BDBD8C422D05C2CA00E0A195 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +135,8 @@
 				BDBD8C5E2D05C2CC00E0A195 /* CurvTests */,
 				BDBD8C682D05C2CC00E0A195 /* CurvUITests */,
 				BDBD8C4C2D05C2CA00E0A195 /* Products */,
+				14EEF44FA879602FCD63A5F0 /* Pods */,
+				65D50B5F44AAE42C424D7596 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +157,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDBD8C6F2D05C2CC00E0A195 /* Build configuration list for PBXNativeTarget "Curv" */;
 			buildPhases = (
+				9BAF4649613F531D9FAF040F /* [CP] Check Pods Manifest.lock */,
 				BDBD8C472D05C2CA00E0A195 /* Sources */,
 				BDBD8C482D05C2CA00E0A195 /* Frameworks */,
 				BDBD8C492D05C2CA00E0A195 /* Resources */,
@@ -111,8 +170,6 @@
 				BDBD8C4D2D05C2CA00E0A195 /* Curv */,
 			);
 			name = Curv;
-			packageProductDependencies = (
-			);
 			productName = Curv;
 			productReference = BDBD8C4B2D05C2CA00E0A195 /* Curv.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +178,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDBD8C722D05C2CC00E0A195 /* Build configuration list for PBXNativeTarget "CurvTests" */;
 			buildPhases = (
+				3DBCADF67485780B7702AEB0 /* [CP] Check Pods Manifest.lock */,
 				BDBD8C572D05C2CC00E0A195 /* Sources */,
 				BDBD8C582D05C2CC00E0A195 /* Frameworks */,
 				BDBD8C592D05C2CC00E0A195 /* Resources */,
@@ -134,8 +192,6 @@
 				BDBD8C5E2D05C2CC00E0A195 /* CurvTests */,
 			);
 			name = CurvTests;
-			packageProductDependencies = (
-			);
 			productName = CurvTests;
 			productReference = BDBD8C5B2D05C2CC00E0A195 /* CurvTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -144,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDBD8C752D05C2CC00E0A195 /* Build configuration list for PBXNativeTarget "CurvUITests" */;
 			buildPhases = (
+				DEC6C6471053F537415A2EDB /* [CP] Check Pods Manifest.lock */,
 				BDBD8C612D05C2CC00E0A195 /* Sources */,
 				BDBD8C622D05C2CC00E0A195 /* Frameworks */,
 				BDBD8C632D05C2CC00E0A195 /* Resources */,
@@ -157,8 +214,6 @@
 				BDBD8C682D05C2CC00E0A195 /* CurvUITests */,
 			);
 			name = CurvUITests;
-			packageProductDependencies = (
-			);
 			productName = CurvUITests;
 			productReference = BDBD8C652D05C2CC00E0A195 /* CurvUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -230,6 +285,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DBCADF67485780B7702AEB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CurvTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BAF4649613F531D9FAF040F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Curv-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEC6C6471053F537415A2EDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Curv-CurvUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BDBD8C472D05C2CA00E0A195 /* Sources */ = {
@@ -390,6 +514,7 @@
 		};
 		BDBD8C702D05C2CC00E0A195 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5D8331E71974185FD258DEF /* Pods-Curv.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -399,6 +524,9 @@
 				DEVELOPMENT_TEAM = 6D8CC63YAU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Curv/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -409,7 +537,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = techo.Curv;
+				PRODUCT_BUNDLE_IDENTIFIER = euxcet.Curv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -419,6 +547,7 @@
 		};
 		BDBD8C712D05C2CC00E0A195 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95EEC1F958FEE8AB6362F7EF /* Pods-Curv.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -428,6 +557,9 @@
 				DEVELOPMENT_TEAM = 6D8CC63YAU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Curv/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -438,7 +570,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = techo.Curv;
+				PRODUCT_BUNDLE_IDENTIFIER = euxcet.Curv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -448,6 +580,7 @@
 		};
 		BDBD8C732D05C2CC00E0A195 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF80021C68AF57BAC0172281 /* Pods-CurvTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -467,6 +600,7 @@
 		};
 		BDBD8C742D05C2CC00E0A195 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD7711984A5AD6CA13183453 /* Pods-CurvTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +620,7 @@
 		};
 		BDBD8C762D05C2CC00E0A195 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 304673C5B07802C25BE2A765 /* Pods-Curv-CurvUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -503,6 +638,7 @@
 		};
 		BDBD8C772D05C2CC00E0A195 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F942214065BEEC03AD082BD /* Pods-Curv-CurvUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

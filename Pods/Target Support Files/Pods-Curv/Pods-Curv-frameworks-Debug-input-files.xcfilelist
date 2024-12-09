@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Curv/Pods-Curv-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CoreBluetoothMock/CoreBluetoothMock.framework
+${BUILT_PRODUCTS_DIR}/IOS-BLE-Library/IOS_BLE_Library.framework
+${BUILT_PRODUCTS_DIR}/IOS-BLE-Library-Mock/IOS_BLE_Library_Mock.framework

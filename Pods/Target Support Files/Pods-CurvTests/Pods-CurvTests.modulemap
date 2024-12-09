@@ -1,0 +1,6 @@
+framework module Pods_CurvTests {
+  umbrella header "Pods-CurvTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
